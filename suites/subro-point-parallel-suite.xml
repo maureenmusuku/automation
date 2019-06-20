@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="subro-point-testsuite" parallel="instances" thread-count="2">
+ <!--   <listeners>
+        <listener class-name="com.advalent.automation.reporting.ExtentTestManager"/>
+    </listeners>-->
+    <test name="subro-point-testsuite" preserve-order="true">
+        <classes>
+            <class name="com.advalent.automation.test.subropoint.LoginPageTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.GlobalSearch_EventIncident_PageTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.ViewEventPageTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.overviewtab.OverviewTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.tasktab.TaskTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.claimsreview.ClaimsReviewTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.externalparty.ExternalPartyTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.casecorrespondance.CaseCorrespondanceTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.projections.ProjectionsTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.activitylog.ActivityLogTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.activitylog.ActivityLogSearchTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.activitylog.ActivityLogEntryTest"/>
+            <!--<class name="com.advalent.automation.test.subropoint.search.globalsearch.GlobalSearch_EventIncident_PageTest"/>-->
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,12 @@
+<aspectj>
+    <aspects>
+        <!--<aspect name="com.advalent.automation.impl.utils.aspects.ReportingAspect"/>-->
+        <aspect name="com.advalent.automation.test.aspects.TestStepsAspect"/>
+        <aspect name="com.advalent.automation.impl.component.webelement.CustomElementInitializer"/>
+    </aspects>
+    <weaver>
+        <!-- make sure that we only weave aspects inside our project -->
+        <include within="com.advalent..*"/>
+        <include within="org.openqa.selenium.*"/>
+    </weaver>
+</aspectj>

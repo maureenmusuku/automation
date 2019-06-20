@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="subro-point-testsuite" configfailurepolicy="continue">
+
+    <test name="subro-point-testsuite" preserve-order="true">
+        <classes>
+            <class name="com.advalent.automation.test.subropoint.LoginPageTest"/>
+            <!--<class name="com.advalent.automation.test.subropoint.search.globalsearch.GlobalSearch_EventIncident_PageTest"/>-->
+            <!--<class name="com.advalent.automation.test.subropoint.search.globalsearch.GlobalSearch_MemberSearch_PageTest"/>-->
+            <!--<class name="com.advalent.automation.test.subropoint.search.globalsearch.GlobalSearch_EventIncident_DataGridSortTest"/>-->
+            <!--<class name="com.advalent.automation.test.subropoint.search.globalsearch.GlobalSearch_MemberSearch_DataGridSortTest"/>-->
+            <!--<class name="com.advalent.automation.test.subropoint.search.globalsearch.GlobalSearch_EventIncident_PaginationTest"/>-->
+            <!--<class name="com.advalent.automation.test.subropoint.search.globalsearch.GlobalSearch_MemberSearch_PaginationTest"/>-->
+            <!--
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.GlobalSearch_EventIncident_DataGridSortTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.GlobalSearch_EventIncident_PaginationTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.ViewEventPageTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.eventbanner.EventBannerTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.discovery.DiscoveryEventPageTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.discovery.DiscoveryInvestigationTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.overviewtab.OverviewTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.tasktab.TaskTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.memberinformationtab.MemberInformationTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.memberinformationtab.PatientInformationTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.memberinformationtab.PolicyHolderInformationmTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.externalparty.ExternalPartyTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.casecorrespondance.CaseCorrespondanceTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.projections.ProjectionsTabTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.activitylog.ActivityLogTest"/>
+            <class name="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.activitylog.ActivityLogSearchTest"/>
+            <class columnName="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.claimsreview.ClaimsReviewTabTest"/>
+  <class columnName="com.advalent.automation.test.subropoint.search.globalsearch.viewevent.activitylog.ActivityLogEntryTest"/>-->
+        </classes>
+    </test>
+</suite>
